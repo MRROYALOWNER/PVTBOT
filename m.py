@@ -253,10 +253,7 @@ def show_all_users(message):
         except FileNotFoundError:
             response = "No data found ❌"
     else:
-        response = "𝙵𝚁𝙴𝙴 𝙼𝙰 𝙰𝙿𝙽𝙸 𝙼𝙰𝙰 𝙲𝙷𝙾𝙳 𝙽𝙰 𝙳𝙰 𝙶𝙰 𝙺𝙰𝚈 𝙹𝙾 𝙱𝙾𝚃 𝙲𝙷𝙰𝙻𝙰 𝚁𝙴𝙷𝙰 𝙷𝙰𝙰 𝙵𝚁𝙴𝙴 𝙼𝙰 𝙻𝙰𝙽𝙳 𝙻𝙰 
-𝙼𝙰𝙳𝙰𝚁𝙲𝙷𝙾𝙳𝙾 𝙱𝚄𝚈 𝙺𝙰𝚁:- @MR_UGESH ❄."
-    bot.reply_to(message, response)
-
+        response = "𝙵𝚁𝙴𝙴 𝙼𝙰 𝙰𝙿𝙽𝙸 𝙼𝙰𝙰 𝙲𝙷𝙾𝙳 𝙽𝙰 𝙳𝙰 𝙶𝙰 𝙺𝙰𝚈 𝙹𝙾 𝙱𝙾𝚃 𝙲𝙷𝙰𝙻𝙰 𝚁𝙴𝙷𝙰 𝙷𝙰𝙰 𝙵𝚁𝙴𝙴 𝙼𝙰 𝙻𝙰𝙽𝙳 𝙻𝙰 𝙼𝙰𝙳𝙰𝚁𝙲𝙷𝙾𝙳𝙾 𝙱𝚄𝚈 𝙺𝙰𝚁:- @Mr_ugesh"
 @bot.message_handler(commands=['logs'])
 def show_recent_logs(message):
     user_id = str(message.chat.id)
