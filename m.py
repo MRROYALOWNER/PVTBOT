@@ -227,8 +227,7 @@ def clear_users_command(message):
         except FileNotFoundError:
             response = "users are already cleared ❌."
     else:
-        response = "𝙵𝚁𝙴𝙴 𝙼𝙰 𝙰𝙿𝙽𝙸 𝙼𝙰𝙰 𝙲𝙷𝙾𝙳 𝙽𝙰 𝙳𝙰 𝙶𝙰 𝙺𝙰𝚈 𝙹𝙾 𝙱𝙾𝚃 𝙲𝙷𝙰𝙻𝙰 𝚁𝙴𝙷𝙰 𝙷𝙰𝙰 𝙵𝚁𝙴𝙴 𝙼𝙰 𝙻𝙰𝙽𝙳 𝙻𝙰 
-𝙼𝙰𝙳𝙰𝚁𝙲𝙷𝙾𝙳𝙾 𝙱𝚄𝚈 𝙺𝙰𝚁:- @MR_UGESH 🙇."
+        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @MR_UGESH 🙇."
     bot.reply_to(message, response)
  
 
